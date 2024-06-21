@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.cu_shadow{
+  box-shadow:
+  5px 5px  10px  rgba(0, 0, 0, 0.2)
+  /* -5px 15px 10px rgba(0, 0, 0,0.5), */
+
+}
+.cu_color{
+  background-color:rgba(190,190,190 , 0.3)
+}
+@tailwind utilities;

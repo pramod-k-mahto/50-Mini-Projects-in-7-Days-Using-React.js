@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+@keyframes move {
+  0% {
+    margin-left: -5rem;
+  }
+  100% {
+    margin-left: -4rem;
+  }
+}
+
+.movedown {
+  animation: move 2s linear infinite;
+}
+
+@tailwind utilities;

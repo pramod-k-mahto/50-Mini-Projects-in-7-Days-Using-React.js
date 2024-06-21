@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+
+@keyframes myanimation {
+  0% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0.5; /* Partially visible */
+  }
+  100% {
+    opacity: 0; /* Fully transparent */
+  }
+}
+
+@layer utilities {
+  .animate-myanimation {
+    animation: myanimation 3s linear;
+    position: absolute; /* Ensure the heart icon is positioned absolutely */
+  }
+}
+
+@tailwind utilities;

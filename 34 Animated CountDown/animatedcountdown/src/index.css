@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+
+@keyframes move {
+  0% {
+    transform: translate(-5%, -5%) 
+    /* rotate(45deg); */
+    /* transform-origin: bottom center; */
+
+}
+  50% {
+    transform: translate(-70%, 70%)
+     /* rotate(120deg); */
+  }
+  100% {
+    transform: translate(-7%, -9%)
+     /* rotate(180deg); */
+  }
+}
+
+@layer utilities {
+  .animate-move {
+    animation: move 3s linear;
+  }
+}
+
+@tailwind utilities;

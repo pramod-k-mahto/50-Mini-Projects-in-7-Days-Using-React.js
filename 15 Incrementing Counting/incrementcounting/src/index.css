@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.boxName {
+    content: "";
+    position: absolute;
+    background-color: #a876aa;
+    /* width: 40px;
+    height: 40px; */
+    border-radius: 5px;
+    top: calc(100% - 25px);
+    transform: rotate(45deg);
+  }
+@tailwind utilities;
